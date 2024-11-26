@@ -8,6 +8,15 @@
   </pre>
 </div>
 
-|  | |  |
-|:--------------------------:|:--------------------:|:----------------------------:|
-| <img src="https://github-readme-stats.vercel.app/api?username=Techi-fl&show_icons=true&theme=radical" alt="Painel de Desempenho" width="70%"> | <img src="https://github.com/Techi-fl.png" alt="Perfil" style="border-radius: 50%;" width="50%"> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Techi-fl&layout=compact&theme=radical" alt="Tecnologias Mais Usadas" width="80%"> |
+***
+
+<p align="center">
+  <!-- Painel de Desempenho -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Techi-fl&show_icons=true&theme=tokyonight" alt="Painel de Desempenho" width="40%">
+  
+  <!-- Foto de Perfil -->
+  <img src="https://github.com/Techi-fl.png" alt="Foto de Perfil" width="150px" style="border-radius: 50%; margin: 0 20px;">
+  
+  <!-- Tecnologias Mais Usadas -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Techi-fl&layout=compact&theme=merko" alt="Tecnologias Mais Usadas" width="40%">
+</p>
