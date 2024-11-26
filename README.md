@@ -20,3 +20,10 @@
   <!-- Tecnologias Mais Usadas -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Techi-fl&layout=compact&theme=merko" alt="Tecnologias Mais Usadas" width="40%">
 </p>
+
+# Bem-vindo ao meu perfil!
+
+Aqui está uma animação de digitação do meu nome:
+
+![Animação de Digitação](https://github.com/Techi-fl/Techi-fl/blob/main/fabricio-typing-animation.gif)
+
