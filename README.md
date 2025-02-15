@@ -8,17 +8,3 @@
   </pre>
 </div>
 
-***
-
-<p align="center">
-  <!-- Painel de Desempenho -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Techi-fl&show_icons=true&theme=radical" alt="Painel de Desempenho" width="100%" style="max-width: 400px;">
-  
-  <!-- Foto de Perfil -->
-  <img src="https://github.com/Techi-fl.png" alt="Foto de Perfil" width="120px" style="border-radius: 50%; margin: 10px; border: 3px solid #ff3333;">
-  
-  <!-- Tecnologias Mais Usadas -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Techi-fl&layout=compact&theme=radical" alt="Tecnologias Mais Usadas" width="100%" style="max-width: 400px;">
-</p>
-
-![Animação de Digitação](https://github.com/Techi-fl/Techi-fl/blob/main/assets/fabricio-typing-animation.gif)
