@@ -9,6 +9,7 @@
 </div>
 
 
-![Gráfico de Atividade](activity-graph.gif)
+![Texto Piscando](blink-text.svg)
+
 
 
