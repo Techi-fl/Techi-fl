@@ -17,9 +17,3 @@ jobs:
         run: |
           echo "Compilando o projeto..."
           # Aqui você pode rodar um script como uma "função"
-
-          on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
