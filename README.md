@@ -9,5 +9,5 @@
 </div>
 
 
-[🕒 Veja a hora atual](hora.md)
+![Hora Atual](clock.svg)
 
