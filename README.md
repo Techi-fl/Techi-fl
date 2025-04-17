@@ -9,7 +9,7 @@
 </div>
 
 
-![Texto Piscando](blink-text.svg)
+![Texto Piscando](blink-text.gif)
 
 
 
