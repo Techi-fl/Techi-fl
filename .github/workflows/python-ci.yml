@@ -3,25 +3,21 @@ name: Python CI
 on:
   push:
     branches:
-      - main  # Roda quando algo for enviado para o branch principal
+      - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # A máquina virtual será um Ubuntu
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout do código
-        uses: actions/checkout@v3  # Faz o checkout do código do repositório
+        uses: actions/checkout@v3
 
       - name: Configurar Python
-        uses: actions/setup-python@v4  # Instala a versão do Python que você especificar
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.9'  # Pode ser qualquer versão do Python que você precise
-
-      - name: Instalar Dependências
-        run: |
-          pip install -r requirements.txt  # Se o seu projeto usar dependências
+          python-version: '3.9'
 
       - name: Rodar o script Python
         run: |
-          python seu-script.py  # Aqui você coloca o caminho do seu script Python
+          python seu-script.py  # troca aqui pro nome real do seu arquivo .py
