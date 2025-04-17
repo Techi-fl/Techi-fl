@@ -20,7 +20,7 @@ jobs:
 
           # Criar o GIF de texto piscando
           convert -size 400x100 xc:transparent -gravity center -pointsize 40 -fill black \
-          -draw "text 0,0 'Texto Piscando'" -animate 1 -delay 500 blink-text.gif
+          -draw "text 0,0 'Texto Piscando'" -delay 500 -loop 0 blink-text.gif
 
       - name: Commit e push
         run: |
