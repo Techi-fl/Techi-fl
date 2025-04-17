@@ -1,31 +1,31 @@
-name: Gerar GIF de Texto Piscando
+name: Gerar GIF Simples
 
 on:
-  schedule:
-    - cron: "*/1 * * * *"  # a cada 1 minuto
   workflow_dispatch:
+    # Permite que você execute manualmente o workflow
 
 jobs:
-  generate-blink-gif:
+  generate-gif:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout do código
         uses: actions/checkout@v3
 
-      - name: Gerar GIF de Texto Piscando
+      - name: Instalar ImageMagick
         run: |
-          # Instalar dependências para criar GIF
           sudo apt-get update
           sudo apt-get install -y imagemagick
 
-          # Criar o GIF de texto piscando
-          convert -size 400x100 xc:transparent -gravity center -pointsize 40 -fill black \
-          -draw "text 0,0 'Texto Piscando'" -delay 500 -loop 0 blink-text.gif
+      - name: Criar GIF simples com texto piscando
+        run: |
+          convert -size 200x100 xc:transparent -gravity center -pointsize 30 -fill black \
+          -draw "text 0,0 'Olá Mundo!'" -delay 500 -loop 0 simple-blink.gif
 
-      - name: Commit e push
+      - name: Commit e Push do GIF
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
-          git add blink-text.gif
-          git commit -m "Gera GIF com texto piscando"
+          git add simple-blink.gif
+          git commit -m "Adiciona GIF simples com texto piscando"
           git push
