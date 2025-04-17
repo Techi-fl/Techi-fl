@@ -9,5 +9,6 @@
 </div>
 
 
-![Hora Atual](clock.svg)
+![Gráfico de Atividade](activity-graph.gif)
+
 
