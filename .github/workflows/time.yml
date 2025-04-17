@@ -1,0 +1,25 @@
+name: Atualiza Hora
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"  # a cada 1 minuto
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Atualizar horário
+        run: |
+          echo "## 🕒 Hora atual" > hora.md
+          echo "$(TZ=America/Sao_Paulo date '+%H:%M:%S - %d/%m/%Y')" >> hora.md
+
+      - name: Commit e push
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'actions@github.com'
+          git add hora.md
+          git commit -m "atualiza hora"
+          git push
