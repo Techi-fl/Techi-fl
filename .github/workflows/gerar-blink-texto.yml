@@ -1,0 +1,38 @@
+name: Gerar SVG Blink
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"  # a cada 1 minuto
+  workflow_dispatch:
+
+jobs:
+  generate-blink-text-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Gerar SVG com texto piscando
+        run: |
+          echo '<?xml version="1.0" encoding="UTF-8"?>
+          <svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+            <style>
+              .blink {
+                animation: blink-animation 1s steps(5, start) infinite;
+              }
+              @keyframes blink-animation {
+                50% { opacity: 0; }
+              }
+            </style>
+            <text x="50%" y="50%" font-size="48" text-anchor="middle" fill="black" class="blink">
+              Texto Piscando
+            </text>
+          </svg>' > blink-text.svg
+
+      - name: Commit e push
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'actions@github.com'
+          git add blink-text.svg
+          git commit -m "Gera SVG com texto piscando"
+          git push
