@@ -8,3 +8,4 @@
   </pre>
 </div>
 
+![Status](https://img.shields.io/badge/Status-Ativo-brightgreen)
