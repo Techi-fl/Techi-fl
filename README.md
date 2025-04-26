@@ -10,5 +10,6 @@
   </pre>
 </div>
 
-![IFBA](https://img.shields.io/badge/IFBA-Instituto_Federal_da_Bahia-blue?style=plastic)
+![IFBA](https://img.shields.io/badge/IFBA-%E2%9C%94-008C8C?style=flat-square&logo=graduation-cap)
+
 
