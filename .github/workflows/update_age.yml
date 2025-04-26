@@ -33,8 +33,8 @@ jobs:
             age=$((age - 1))
           fi
 
-          # Substituir o texto no README.md
-          sed -i "s|!\[Idade\](https://img.shields.io/badge/Idade-[0-9]*%20anos-[a-zA-Z0-9-]*)|![Idade](https://img.shields.io/badge/Idade-${age}%20anos-blue)|" README.md
+          # Substituir o texto da idade no README.md
+          sed -i "s|Idade: [0-9]*|Idade: ${age} anos|" README.md
 
       - name: Commit e Push
         run: |
