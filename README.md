@@ -8,7 +8,9 @@
   </pre>
 </div>
 
-![Nascimento](https://img.shields.io/badge/Nascimento-09/04/2005-blue?style=flat-circle)
+![GitHub](https://img.shields.io/badge/GitHub-Techi--fl-181717?logo=github&style=flat)
+![Telegram](https://img.shields.io/badge/Telegram-@Techi_fl-2CA5E0?logo=telegram&style=flat-square)
+
 
 
 
