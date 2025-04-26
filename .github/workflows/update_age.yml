@@ -2,23 +2,39 @@ name: Atualizar Idade
 
 on:
   schedule:
-    - cron: '0 0 1 * *' # Dia 1 de cada mês
-  workflow_dispatch: # Também permite rodar manualmente no GitHub
+    - cron: '0 0 1 * *'  # Todo dia 1º do mês
+  workflow_dispatch:  # Para rodar manualmente
 
 jobs:
   update-age:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+      - name: Definir a data de nascimento e calcular a idade
+        id: idade
+        run: |
+          # Definir a data de nascimento
+          birth_year=2005
+          birth_month=4
+          birth_day=9
 
-      - name: Rodar script para atualizar idade
-        run: python update_age.py
+          # Data atual
+          current_year=$(date +'%Y')
+          current_month=$(date +'%m')
+          current_day=$(date +'%d')
+
+          # Calcular a idade
+          age=$((current_year - birth_year))
+
+          if [ "$current_month" -lt "$birth_month" ] || { [ "$current_month" -eq "$birth_month" ] && [ "$current_day" -lt "$birth_day" ]; }; then
+            age=$((age - 1))
+          fi
+
+          # Substituir o texto no README.md
+          sed -i "s|!\[Idade\](https://img.shields.io/badge/Idade-[0-9]*%20anos-[a-zA-Z0-9-]*)|![Idade](https://img.shields.io/badge/Idade-${age}%20anos-blue)|" README.md
 
       - name: Commit e Push
         run: |
