@@ -10,6 +10,7 @@
   </pre>
 </div>
 
-![IFBA](https://img.shields.io/badge/IFBA-%E2%9C%94-008C8C?style=flat-square&logo=graduation-cap)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Techi-fl&layout=compact)
+
 
 
