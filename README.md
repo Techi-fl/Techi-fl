@@ -7,8 +7,7 @@
 <code style="color: #ff3333;">&lt;identidade&gt;</code>
       <code style="color: #ff6666;">&lt;nome&gt;Fabricio Lôbo&lt;/nome&gt;</code>
       <code style="color: #ff3333;">&lt;formação&gt;</code>
-           - Python
-           - oii
+           
       <code style="color: #ff3333;">&lt;/formação&gt;</code>
 <code style="color: #ff3333;">&lt;/identidade&gt;</code>
   </pre>
@@ -16,8 +15,4 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Techi-fl&layout=compact)
 
-### Habilidades
-- Python
-- JavaScript
-- HTML5
-- CSS3
+
