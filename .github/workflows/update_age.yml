@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}  # Usa o token para autenticação
 
       - name: Calcular a idade e substituir no README.md
         id: idade
