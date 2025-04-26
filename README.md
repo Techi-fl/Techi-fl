@@ -8,4 +8,5 @@
   </pre>
 </div>
 
-![Status](https://img.shields.io/badge/Status-Ativo-brightred)
+![Idade](https://img.shields.io/badge/Idade-20%20anos-blue)
+
