@@ -8,6 +8,7 @@
       <code style="color: #ff6666;">&lt;nome&gt;Fabricio Lôbo&lt;/nome&gt;</code>
       <code style="color: #ff3333;">&lt;formação&gt;</code>
            - Python
+          * Python
       <code style="color: #ff3333;">&lt;/formação&gt;</code>
 <code style="color: #ff3333;">&lt;/identidade&gt;</code>
   </pre>
