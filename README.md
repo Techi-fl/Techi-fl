@@ -7,7 +7,7 @@
 <code style="color: #ff3333;">&lt;identidade&gt;</code>
       <code style="color: #ff6666;">&lt;nome&gt;Fabricio Lôbo&lt;/nome&gt;</code>
       <code style="color: #ff3333;">&lt;formação&gt;</code>
-           <code style="color: #ff3333;">&lt;formação&gt;</code>Análise e Desenvolvimento de Sistemas<code style="color: #ff3333;">&lt;formação&gt;</code>
+           <code style="color: #ff3333;">&lt;cursando&gt;</code>Análise e Desenvolvimento de Sistemas<code style="color: #ff3333;">&lt;cursando&gt;</code>
       <code style="color: #ff3333;">&lt;/formação&gt;</code>
 <code style="color: #ff3333;">&lt;/identidade&gt;</code>
   </pre>
