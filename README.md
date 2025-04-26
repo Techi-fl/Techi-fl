@@ -9,8 +9,7 @@
 <code style="color: #ff3333;">&lt;/identidade&gt;</code>
 <code style="color: #ff3333;">&lt;identidade&gt;</code>
       <code style="color: #ff3333;">&lt;identidade&gt;</code>
-      <code style="color: #ff6666;">&lt;nome&gt;Fabricio Lôbo&lt;/nome&gt;</code>
-<code style="color: #ff3333;">&lt;/identidade&gt;</code>
+      <code style="color: #ff3333;">&lt;/identidade&gt;</code>
 <code style="color: #ff3333;">&lt;/identidade&gt;</code>
   </pre>
 </div>
