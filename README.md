@@ -8,7 +8,8 @@
   </pre>
 </div>
 
-![Build](https://github.com/Techi-fl/Techi-fl/actions/workflows/update_age.yml/badge.svg)
+![Nascimento](https://img.shields.io/badge/Nascimento-09/04/2005-blue?style=flat-square)
+
 
 
 
