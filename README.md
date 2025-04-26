@@ -8,9 +8,9 @@
   </pre>
 </div>
 
-![GitHub](https://img.shields.io/badge/GitHub-Techi--fl-181717?logo=github&style=flat)
+![GitHub](https://img.shields.io/badge/GitHub-Techi--fl-181717?logo=github&style=social)
 
-![Gradiente](https://img.shields.io/badge/🔥_Level-Avançado-ff7f50?style=for-the-badge&labelColor=8a2be2)
+
 
 
 
