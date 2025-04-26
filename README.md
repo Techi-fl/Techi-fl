@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/badge/GitHub-Techi--fl-181717?logo=github&style=social)
+
 # ☕ Hello World! 
 
 <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; max-width: 90%; margin: auto; font-family: 'Courier New', monospace; color: #ff4d4d; box-shadow: 0 4px 6px rgba(255, 0, 0, 0.3);">
@@ -7,16 +9,5 @@
 <code style="color: #ff3333;">&lt;/identidade&gt;</code>
   </pre>
 </div>
-
-![GitHub](https://img.shields.io/badge/GitHub-Techi--fl-181717?logo=github&style=social)
-
-
-
-
-
-
-
-
-
 
 
