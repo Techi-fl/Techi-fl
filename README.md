@@ -8,7 +8,8 @@
   </pre>
 </div>
 
-![Visitantes](https://visitor-badge.laobi.icu/badge?page_id=Techi-fl)
+![Build](https://github.com/Techi-fl/Techi-fl/actions/workflows/update_age.yml/badge.svg)
+
 
 
 
