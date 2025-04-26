@@ -8,7 +8,8 @@
   </pre>
 </div>
 
-Idade: XX anos
+![Visitantes](https://visitor-badge.laobi.icu/badge?page_id=Techi-fl)
+
 
 
 
