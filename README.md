@@ -16,3 +16,11 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Techi-fl&layout=compact)
 
 
+
+
+<a href="mailto:seuemail@example.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+
+
