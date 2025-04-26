@@ -1,0 +1,44 @@
+name: Atualizar Idade
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # Roda todo primeiro dia do mês
+  workflow_dispatch:  # Permite disparar manualmente
+
+jobs:
+  update-age:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Calcular a idade e substituir no README.md
+        id: idade
+        run: |
+          birth_year=2005
+          birth_month=4
+          birth_day=9
+
+          # Data atual
+          current_year=$(date +'%Y')
+          current_month=$(date +'%m')
+          current_day=$(date +'%d')
+
+          # Calcular a idade
+          age=$((current_year - birth_year))
+
+          if [ "$current_month" -lt "$birth_month" ] || { [ "$current_month" -eq "$birth_month" ] && [ "$current_day" -lt "$birth_day" ]; }; then
+            age=$((age - 1))
+          fi
+
+          # Substituir no README.md
+          sed -i 's|Idade: [0-9]*|Idade: '${age}' anos|' README.md
+
+      - name: Commit e Push as alterações
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add README.md
+          git commit -m 'Atualizar idade automaticamente' || echo "Nada para commitar"
+          git push
