@@ -8,7 +8,7 @@
   </pre>
 </div>
 
-![Nascimento](https://img.shields.io/badge/Nascimento-09/04/2005-blue?style=flat-square)
+![Nascimento](https://img.shields.io/badge/Nascimento-09/04/2005-blue?style=flat-circle)
 
 
 
