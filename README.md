@@ -12,5 +12,3 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Techi-fl&layout=compact)
 
-
-![Techi-fl's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Techi-fl&show_icons=true&count_private=true&hide=prs&theme=radical)
