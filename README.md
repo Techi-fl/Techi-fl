@@ -8,5 +8,6 @@
   </pre>
 </div>
 
-![Idade](https://img.shields.io/badge/Idade-XX%20anos-blue)
+Idade: XX anos
+
 
