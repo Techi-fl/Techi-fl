@@ -12,5 +12,8 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Techi-fl&layout=compact)
 
+![Build Status](https://img.shields.io/travis/Techi-fl/Techi-fl?style=flat-square)
+
+
 
 
